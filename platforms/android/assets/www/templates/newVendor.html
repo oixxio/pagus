@@ -1,0 +1,32 @@
+<ion-view title="Bienvenido Comercio" hide-back-button="true" id="page2" style="background-color:#FFFFFF;" class="">
+    <ion-nav-buttons side="primary">
+        <button class="button button-icon icon ion-navicon" ng-click="changeAPI()"></button>
+    </ion-nav-buttons>
+    <ion-content padding="true" class="has-header">
+        <form id="bienvenidoComercio-form5" class="list ">
+            <ion-list id="bienvenidoComercio-list2" class=" ">
+                <label class="item item-input " id="bienvenidoComercio-input4">
+                    <span class="input-label">Móvil:</span>
+                    <input type="tel" placeholder="" ng-model="newVendor.msisdn">
+                </label>
+                <label class="item item-input " id="bienvenidoComercio-input8">
+                    <span class="input-label">Nombre:</span>
+                    <input type="text" placeholder="" ng-model="newVendor.name">
+                </label>
+                <label class="item item-input " id="bienvenidoComercio-input5">
+                    <span class="input-label">VIN:</span>
+                    <input type="password" placeholder="" ng-model="newVendor.vin" ng-minlength="6" ng-maxlength="6" only-digits>
+                </label>
+                <label class="item item-input " id="bienvenidoComercio-input6">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="" ng-model="newVendor.email">
+                </label>
+                <label class="item item-input " id="bienvenidoComercio-input7">
+                    <span class="input-label">Domicilio:</span>
+                    <input type="text" placeholder="" ng-model="newVendor.address">
+                </label>
+            </ion-list>
+            <button ng-disabled="!newVendor.msisdn || !newVendor.name || !newVendor.vin || !newVendor.email || !newVendor.address || btnDisabled" ng-id="btnNewVendor" class=" button button-positive  button-block " ng-click="createNewVendor()">Crear Cuenta</button>
+        </form>
+    </ion-content>
+</ion-view>
