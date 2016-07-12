@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.oixxio.pagusss.vendor" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Pagu$$$ Comercio</name>
-  <description>Pagu$$$ Comercio</description>
-  <author email="you@example.com" href="http://example.com.com/">Mondo Cristian</author>
+<widget id="com.oixxio.pagusss" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Pagu$$$</name>
+  <description>Pagu$$$</description>
+  <author email="you@example.com" href="http://example.com.com/">OIXXIO</author>
   <content src="index.html" />
   <access origin="*" />
   <preference name="webviewbounce" value="false" />
